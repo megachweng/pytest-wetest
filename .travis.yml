@@ -5,12 +5,14 @@ language: python
 
 matrix:
     include:
-      - python: '3.6'
-        dist: trusty
+      - python: 3.6
+        dist: xenial
         env: TOX_ENV=py36
-      - python: '3.7'
-        dist: trusty
+        sudo: true
+      - python: 3.7
+        dist: xenial
         env: TOX_ENV=py37
+        sudo: true
 
 install:
   - pip install tox
