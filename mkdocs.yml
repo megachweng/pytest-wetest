@@ -1,0 +1,11 @@
+site_name: pytest-wetest
+site_description: Welian API Automation test framework pytest plugin
+site_author: megachweng
+
+theme: readthedocs
+
+repo_url: https://github.com/megachweng/pytest-wetest
+
+pages:
+- Home: index.md
+- Scenario: scenario.md
