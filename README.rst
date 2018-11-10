@@ -18,9 +18,6 @@ Welian API Automation test framework pytest plugin
 
 ----
 
-This `pytest`_ plugin was generated with `Cookiecutter`_ along with `@hackebrot`_'s `cookiecutter-pytest-plugin`_ template.
-
-
 Features
 --------
 
@@ -29,12 +26,17 @@ Features
 * custom node id
 * docstring based metadata
 
+Notice
+------------
+
+breed server, the backend test visualization server of this plugin is not open source,
+please consider build your own or just leave *breed_server* options empty.
 
 Requirements
 ------------
 
-* *nix based system
-* python >=3.6 python3.7 is required if you want set none-ascii `title`_
+* \*nix based system
+* python >=3.6 python3.7 is required if you want set none-ascii **options** in **pytest.ini**
 * pytest >=3.7
 
 Installation
@@ -48,7 +50,7 @@ You can install "pytest-wetest" via `pip`_ from `PyPI`_::
 Usage
 -----
 
-For more details please visit `documentation`_
+For more details please check on `documentation site`_
 
 Contributing
 ------------
@@ -78,4 +80,4 @@ If you encounter any problems, please `file an issue`_ along with a detailed des
 .. _`tox`: https://tox.readthedocs.io/en/latest/
 .. _`pip`: https://pypi.org/project/pip/
 .. _`PyPI`: https://pypi.org/project
-.. _`documentation`: https://pytest-wetest.readthedocs.io/en/latest/
+.. _`documentation site`: https://pytest-wetest.readthedocs.io/en/latest/
