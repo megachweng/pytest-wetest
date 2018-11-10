@@ -13,7 +13,7 @@ def read(fname):
 
 setup(
     name='pytest-wetest',
-    version='1.0.0',
+    version='1.0.1',
     author='megachweng',
     author_email='megachweng@gmail.com',
     maintainer='megachweng',
