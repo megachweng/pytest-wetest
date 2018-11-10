@@ -14,10 +14,6 @@ pytest-wetest
     :target: https://travis-ci.org/megachweng/pytest-wetest
     :alt: See Build Status on Travis CI
 
-.. image:: https://ci.appveyor.com/api/projects/status/github/megachweng/pytest-wetest?branch=master
-    :target: https://ci.appveyor.com/project/megachweng/pytest-wetest/branch/master
-    :alt: See Build Status on AppVeyor
-
 Welian API Automation test framework pytest plugin
 
 ----
@@ -28,14 +24,18 @@ This `pytest`_ plugin was generated with `Cookiecutter`_ along with `@hackebrot`
 Features
 --------
 
-* TODO
+* Json report
+* Atomic test suit
+* custom node id
+* docstring based metadata
 
 
 Requirements
 ------------
 
-* TODO
-
+* *nix based system
+* python >=3.6 python3.7 is required if you want set none-ascii `title`_
+* pytest >=3.7
 
 Installation
 ------------
@@ -48,7 +48,7 @@ You can install "pytest-wetest" via `pip`_ from `PyPI`_::
 Usage
 -----
 
-* TODO
+For more details please visit `documentation`_
 
 Contributing
 ------------
@@ -78,3 +78,4 @@ If you encounter any problems, please `file an issue`_ along with a detailed des
 .. _`tox`: https://tox.readthedocs.io/en/latest/
 .. _`pip`: https://pypi.org/project/pip/
 .. _`PyPI`: https://pypi.org/project
+.. _`documentation`: https://pytest-wetest.readthedocs.io/en/latest/
